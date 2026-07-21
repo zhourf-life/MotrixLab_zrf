@@ -1,0 +1,11 @@
+激活环境：
+source .venv/bin/activate
+
+启动仿真环境，使用mxpython：
+uv run mxpython scripts/view.py --env cartpole
+uv run mxpython scripts/play.py --env cartpole
+
+安装jax支持：
+uv pip install flax jax jaxlib jax-metal -i https://pypi.tuna.tsinghua.edu.cn/simple
+uv pip install jax-metal -i https://pypi.tuna.tsinghua.edu.cn/simple
+

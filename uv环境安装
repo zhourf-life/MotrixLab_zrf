@@ -1,0 +1,7 @@
+1. 取消激活conda
+conda deactivate
+
+2. 激活venv
+source .venv/bin/activate
+
+3. 
