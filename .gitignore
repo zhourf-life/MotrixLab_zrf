@@ -11,4 +11,8 @@ docs/source/index.md
 .worktrees
 uv.lock
 uv.toml
+<<<<<<< Updated upstream
 pyproject.toml
+=======
+pyproject.toml
+>>>>>>> Stashed changes
